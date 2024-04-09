@@ -27,4 +27,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: Potato-Y/nodejs-github-action:${{ env.CURRENT_TIME }}
+        tags: potato-y/nodejs-github-action:${{ env.CURRENT_TIME }}
